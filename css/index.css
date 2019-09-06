@@ -208,16 +208,13 @@ nav {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     background: black;
 }
 
 footer nav {
     width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -229,11 +226,23 @@ footer nav a {
 
 /* About HTML***************** */
 
+/* top content */
+.above {
+    border-bottom: 1px dashed black;
+}
+
+.about {
+    margin: 15px 0 ;
+}
+
+/* main content */
+
+
 .info {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     
-   
 }
 
 .info-items {
@@ -242,6 +251,20 @@ footer nav a {
     flex-direction: column;
     width:360px;
     margin: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
     
 }
+.info-items button {
+    border-radius: 5px;
+    width: 30%;
+    padding: 3%;
+    margin-top: 20px;
+    display: flex;
+}
 
+/* About - bottom */
+
+.bottom {
+padding: 25px 0 ;
+}
