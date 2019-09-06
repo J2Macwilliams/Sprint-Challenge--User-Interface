@@ -226,3 +226,19 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About HTML***************** */
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+
+info-items {
+    display: flex;
+    justify-content: space-between;
+    width:40%
+    border: 2px solid black;
+}
