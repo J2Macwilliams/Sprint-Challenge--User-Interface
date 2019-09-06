@@ -220,9 +220,15 @@ footer nav {
 }
 
 footer nav a {
+    padding: 7px;
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover {
+    background: white;
+    color: black;
+  }
 
 /* About HTML***************** */
 
@@ -257,14 +263,25 @@ footer nav a {
 }
 .info-items button {
     border-radius: 5px;
+    border: 2px solid black;
     width: 30%;
     padding: 3%;
     margin-top: 20px;
     display: flex;
 }
 
+.info-items button:hover {
+    background: black;
+    color: white;
+}
 /* About - bottom */
 
 .bottom {
 padding: 25px 0 ;
+}
+
+/* Product Page**************/
+
+.product-header-img {
+    width: 60%;
 }
