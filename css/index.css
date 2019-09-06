@@ -70,11 +70,49 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* header-content******************/
+header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 691px;
+    align-items: flex-end;
+    margin-top: 35px;
+  }
+
+  header nav a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+  }
+  header nav a:hover {
+    text-decoration: underline;
+  }
+
+.top { 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+/* top content*********************/
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -84,6 +122,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/* middle content*******************/
 
 .middle-content {
     margin-bottom: 20px;
@@ -111,15 +150,56 @@ p {
     align-items: center;
     justify-content: center;
 }
+#box1 {
+    background: teal;
+}
 
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5{
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
+
+
+/* bottom content*******************/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+    width: 30%;
 }
 
 .bottom-content .text-container:last-child {
@@ -127,20 +207,94 @@ p {
 }
 
 footer {
+    display: flex;
+    justify-content: flex-start;
     width: 100%;
     background: black;
 }
 
 footer nav {
     width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
 
 footer nav a {
+    padding: 7px;
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    background: white;
+    color: black;
+  }
+
+/* About HTML***************** */
+
+/* top content */
+.above {
+    border-bottom: 1px dashed black;
+}
+
+.about {
+    margin: 15px 0 ;
+}
+
+/* main content */
+
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    
+}
+
+.info-items {
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    width:360px;
+    margin: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+    
+}
+.info-items button {
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 30%;
+    padding: 3%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.info-items button:hover {
+    background: black;
+    color: white;
+}
+/* About - bottom */
+
+.bottom {
+padding: 25px 0 ;
+}
+
+/* Product Page**************/
+
+.product-content {
+    border-top: 2px dotted gray;
+    border-bottom: 2px dotted gray;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.products {
+    width: 360px;
+    padding: 0px;
+    margin: 20px;
+}
+.product-content-img {
+    width: 380px;
 }
